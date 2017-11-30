@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_team_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/normal_margin"
+    android:paddingLeft="@dimen/large_margin"
+    android:paddingRight="@dimen/large_margin"
+    android:paddingTop="@dimen/normal_margin">
+
+    <TextView
+        android:id="@+id/item_team_position_text_view"
+        android:layout_width="@dimen/normal_margin"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:ellipsize="end"
+        android:lines="1"
+        tools:text="12" />
+
+    <ImageView
+        android:id="@+id/item_team_image_view"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:layout_toRightOf="@+id/item_team_position_text_view"
+        android:textColor="@color/colorTextDark"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/item_team_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/large_margin"
+        android:layout_toRightOf="@+id/item_team_image_view"
+        android:layout_toLeftOf="@+id/item_team_wins_text_view"
+        android:background="@android:color/white"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/colorTextDark"
+        tools:text="Alex Pushkin" />
+
+    <TextView
+        android:id="@+id/item_team_wins_text_view"
+        android:layout_width="@dimen/normal_margin"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/small_margin"
+        android:layout_toLeftOf="@+id/item_team_lose_text_view"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/colorGrayText"
+        tools:text="12" />
+
+    <TextView
+        android:id="@+id/item_team_lose_text_view"
+        android:layout_width="@dimen/normal_margin"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/small_margin"
+        android:layout_toLeftOf="@+id/item_team_points_text_view"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@android:color/holo_red_dark"
+        tools:text="12" />
+
+    <TextView
+        android:id="@+id/item_team_points_text_view"
+        android:layout_width="@dimen/normal_margin"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/colorGrayText"
+        tools:text="12" />
+</RelativeLayout>

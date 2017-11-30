@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_player_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="12dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/item_player_jersey_text"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextDark"
+        android:layout_marginRight="@dimen/normal_margin"
+        tools:text="12"/>
+
+    <TextView
+        android:id="@+id/item_player_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:textColor="@color/colorTextDark"
+        android:lines="1"
+        tools:text="Alex Pushkin" />
+
+    <TextView
+        android:id="@+id/item_player_nationality_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="@color/colorGrayText"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:lines="1"
+        tools:text="Alex Pushkin" />
+
+</LinearLayout>

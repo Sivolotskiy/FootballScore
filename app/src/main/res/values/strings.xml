@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FootballScore</string>
+    <string name="competitions">Competitions</string>
+    <string name="something_error">Something was wrong.</string>
+</resources>

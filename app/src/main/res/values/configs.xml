@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="token">c1fced87b9624809b2b3b35ac9eed8d5</string>
+    <string name="api">http://api.football-data.org/v1/</string>
+</resources>
